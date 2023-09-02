@@ -1,6 +1,10 @@
 body {
     background-color: #ff6c9d;
 }
+// 所有的平滑过渡效果
+// html {
+//     scroll-behavior: smooth;
+// }
 
 * {
     box-sizing: border-box;
@@ -61,6 +65,10 @@ header {
                 text-decoration: none;
                 color: #fff;
                 font-weight: 300;
+
+                &:hover {
+                    color: #ff0157;
+                }
             }
         }
     }
@@ -80,4 +88,7 @@ header {
 .about {
     width: 100%;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
